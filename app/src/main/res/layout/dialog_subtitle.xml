@@ -28,7 +28,7 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:padding="@dimen/vs_10"
-                android:text="选择内置字幕"
+                android:text="選擇內置字幕"
                 android:visibility="gone"
                 android:textColor="@color/color_FFFFFF"
                 android:textSize="@dimen/ts_20" />
@@ -43,7 +43,7 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:padding="@dimen/vs_10"
-                android:text="选择本地字幕"
+                android:text="選擇本地字幕"
                 android:textColor="@color/color_FFFFFF"
                 android:textSize="@dimen/ts_20" />
 
@@ -57,7 +57,7 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:padding="@dimen/vs_10"
-                android:text="在线搜索字幕"
+                android:text="在線搜索字幕"
                 android:textColor="@color/color_FFFFFF"
                 android:textSize="@dimen/ts_20" />
 
@@ -77,7 +77,7 @@
                     android:focusable="true"
                     android:gravity="center"
                     android:padding="@dimen/vs_10"
-                    android:text="字号减小"
+                    android:text="字號減小"
                     android:textColor="@color/color_FFFFFF"
                     android:textSize="@dimen/ts_20" />
 
@@ -103,7 +103,7 @@
                     android:focusable="true"
                     android:gravity="center"
                     android:padding="@dimen/vs_10"
-                    android:text="字号增大"
+                    android:text="字號增大"
                     android:textColor="@color/color_FFFFFF"
                     android:textSize="@dimen/ts_20" />
 
@@ -125,7 +125,7 @@
                     android:focusable="true"
                     android:gravity="center"
                     android:padding="@dimen/vs_10"
-                    android:text="字幕样式一"
+                    android:text="字幕樣式一"
                     android:textColor="@color/color_FFFFFF"
                     android:shadowColor="@color/color_CC000000"
                     android:shadowRadius="2"
@@ -152,7 +152,7 @@
                     android:focusable="true"
                     android:gravity="center"
                     android:padding="@dimen/vs_10"
-                    android:text="字幕样式二"
+                    android:text="字幕樣式二"
                     android:textStyle="bold"
                     android:textColor="@color/color_FFB6C1"
                     android:shadowColor="@color/color_FFFFFF"
@@ -176,7 +176,7 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:text="字幕延时仅对外挂字幕有效"
+                    android:text="字幕延時僅對外掛字幕有效"
                     android:textColor="@color/color_6C3D3D3D"
                     android:textSize="@dimen/ts_20" />
 
@@ -224,7 +224,7 @@
                     android:focusable="true"
                     android:gravity="center"
                     android:padding="@dimen/vs_10"
-                    android:text="字幕推迟"
+                    android:text="字幕推遲"
                     android:textColor="@color/color_FFFFFF"
                     android:textSize="@dimen/ts_20" />
 

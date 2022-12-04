@@ -152,7 +152,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:text="按上下键可以换集"
+            android:text="按上下鍵可以換集"
             android:textColor="@android:color/white"
             android:textSize="24mm" />
     </FrameLayout>

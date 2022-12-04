@@ -75,7 +75,7 @@ public class SearchRemoteTvDialog extends BaseDialog{
             @Override
             public void click(String value, int pos) {
                 RemoteTVBox.setAvalible(value);
-                Toast.makeText(getContext(), "设置成功", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "設置成功", Toast.LENGTH_SHORT).show();
             }
 
             @Override

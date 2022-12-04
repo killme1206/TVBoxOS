@@ -20,7 +20,7 @@
             android:gravity="center"
             android:lineSpacingExtra="@dimen/ts_50"
             android:lineSpacingMultiplier="0"
-            android:text="下载XWalkView运行组件"
+            android:text="下載XWalkView運行组件"
             android:textColor="@color/color_CC000000"
             android:textSize="@dimen/ts_24" />
 
@@ -33,7 +33,7 @@
             android:background="@drawable/button_dialog_main"
             android:focusable="true"
             android:gravity="center"
-            android:text="下载"
+            android:text="下載"
             android:textColor="@color/color_FFFFFF"
             android:textSize="@dimen/ts_26" />
 

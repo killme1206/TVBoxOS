@@ -36,7 +36,7 @@
                 android:layout_height="@dimen/vs_50"
                 android:layout_marginTop="@dimen/vs_10"
                 android:background="@drawable/input_search"
-                android:hint="请输入要搜索的内容"
+                android:hint="請輸入要搜索的內容"
                 android:inputType="text"
                 android:imeOptions="actionDone"
                 android:maxLines="1"
@@ -126,7 +126,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/vs_10"
-            android:text="热门搜索"
+            android:text="熱門搜索"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="@dimen/ts_22" />

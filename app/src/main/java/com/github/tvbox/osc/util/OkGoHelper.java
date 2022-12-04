@@ -80,8 +80,8 @@ public class OkGoHelper {
     }
 
     static void initDnsOverHttps() {
-        dnsHttpsList.add("关闭");
-        dnsHttpsList.add("腾讯");
+        dnsHttpsList.add("關閉");
+        dnsHttpsList.add("騰訊");
         dnsHttpsList.add("阿里");
         dnsHttpsList.add("360");
         OkHttpClient.Builder builder = new OkHttpClient.Builder();

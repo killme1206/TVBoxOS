@@ -282,11 +282,11 @@ public class DetailActivity extends BaseActivity {
                 String text = tvCollect.getText().toString();
                 if ("加入收藏".equals(text)) {
                     RoomDataManger.insertVodCollect(sourceKey, vodInfo);
-                    Toast.makeText(DetailActivity.this, "已加入收藏夹", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DetailActivity.this, "已加入收藏夾", Toast.LENGTH_SHORT).show();
                     tvCollect.setText("取消收藏");
                 } else {
                     RoomDataManger.deleteVodCollect(sourceKey, vodInfo);
-                    Toast.makeText(DetailActivity.this, "已移除收藏夹", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DetailActivity.this, "已移除收藏夾", Toast.LENGTH_SHORT).show();
                     tvCollect.setText("加入收藏");
                 }
             }
@@ -298,7 +298,7 @@ public class DetailActivity extends BaseActivity {
                 ClipboardManager cm = (ClipboardManager)getSystemService(mContext.CLIPBOARD_SERVICE);
                 //设置内容到剪切板
                 cm.setPrimaryClip(ClipData.newPlainText(null, tvPlayUrl.getText().toString().replace("播放地址：","")));
-                Toast.makeText(DetailActivity.this, "已复制", Toast.LENGTH_SHORT).show();
+                Toast.makeText(DetailActivity.this, "已複製", Toast.LENGTH_SHORT).show();
             }
         });
         mGridView.setOnItemListener(new TvRecyclerView.OnItemListener() {
@@ -605,14 +605,14 @@ public class DetailActivity extends BaseActivity {
                     vodInfo.sourceKey = mVideo.sourceKey;
 
                     tvName.setText(mVideo.name);
-                    setTextShow(tvSite, "来源：", ApiConfig.get().getSource(mVideo.sourceKey).getName());
+                    setTextShow(tvSite, "來源：", ApiConfig.get().getSource(mVideo.sourceKey).getName());
                     setTextShow(tvYear, "年份：", mVideo.year == 0 ? "" : String.valueOf(mVideo.year));
-                    setTextShow(tvArea, "地区：", mVideo.area);
-                    setTextShow(tvLang, "语言：", mVideo.lang);
-                    setTextShow(tvType, "类型：", mVideo.type);
-                    setTextShow(tvActor, "演员：", mVideo.actor);
-                    setTextShow(tvDirector, "导演：", mVideo.director);
-                    setTextShow(tvDes, "内容简介：", removeHtmlTag(mVideo.des));
+                    setTextShow(tvArea, "地區：", mVideo.area);
+                    setTextShow(tvLang, "語言：", mVideo.lang);
+                    setTextShow(tvType, "類型：", mVideo.type);
+                    setTextShow(tvActor, "演員：", mVideo.actor);
+                    setTextShow(tvDirector, "導演：", mVideo.director);
+                    setTextShow(tvDes, "內容簡介：", removeHtmlTag(mVideo.des));
                     if (!TextUtils.isEmpty(mVideo.pic)) {
                         Picasso.get()
                                 .load(DefaultConfig.checkReplaceProxy(mVideo.pic))
@@ -796,7 +796,7 @@ public class DetailActivity extends BaseActivity {
                         if (response.body() != null) {
                             return response.body().string();
                         } else {
-                            throw new IllegalStateException("网络请求错误");
+                            throw new IllegalStateException("網路請求錯誤");
                         }
                     }
 

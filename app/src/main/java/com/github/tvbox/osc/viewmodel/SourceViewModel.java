@@ -142,7 +142,7 @@ public class SourceViewModel extends ViewModel {
                             if (response.body() != null) {
                                 return response.body().string();
                             } else {
-                                throw new IllegalStateException("网络请求错误");
+                                throw new IllegalStateException("網路請求錯誤");
                             }
                         }
 
@@ -190,7 +190,7 @@ public class SourceViewModel extends ViewModel {
                         if (response.body() != null) {
                             return response.body().string();
                         } else {
-                            throw new IllegalStateException("网络请求错误");
+                            throw new IllegalStateException("網路請求錯誤");
                         }
                     }
 
@@ -263,7 +263,7 @@ public class SourceViewModel extends ViewModel {
                             if (response.body() != null) {
                                 return response.body().string();
                             } else {
-                                throw new IllegalStateException("网络请求错误");
+                                throw new IllegalStateException("網路請求錯誤");
                             }
                         }
 
@@ -308,7 +308,7 @@ public class SourceViewModel extends ViewModel {
                         if (response.body() != null) {
                             return response.body().string();
                         } else {
-                            throw new IllegalStateException("网络请求错误");
+                            throw new IllegalStateException("網路請求錯誤");
                         }
                     }
 
@@ -388,7 +388,7 @@ public class SourceViewModel extends ViewModel {
                             if (response.body() != null) {
                                 return response.body().string();
                             } else {
-                                throw new IllegalStateException("网络请求错误");
+                                throw new IllegalStateException("網路請求錯誤");
                             }
                         }
 
@@ -449,7 +449,7 @@ public class SourceViewModel extends ViewModel {
                             if (response.body() != null) {
                                 return response.body().string();
                             } else {
-                                throw new IllegalStateException("网络请求错误");
+                                throw new IllegalStateException("網路請求錯誤");
                             }
                         }
 
@@ -503,7 +503,7 @@ public class SourceViewModel extends ViewModel {
                             if (response.body() != null) {
                                 return response.body().string();
                             } else {
-                                throw new IllegalStateException("网络请求错误");
+                                throw new IllegalStateException("網路請求錯誤");
                             }
                         }
 
@@ -537,7 +537,7 @@ public class SourceViewModel extends ViewModel {
                         if (response.body() != null) {
                             return response.body().string();
                         } else {
-                            throw new IllegalStateException("网络请求错误");
+                            throw new IllegalStateException("網路請求錯誤");
                         }
                     }
 
@@ -581,7 +581,7 @@ public class SourceViewModel extends ViewModel {
                             if (response.body() != null) {
                                 return response.body().string();
                             } else {
-                                throw new IllegalStateException("网络请求错误");
+                                throw new IllegalStateException("網路請求錯誤");
                             }
                         }
 
@@ -615,7 +615,7 @@ public class SourceViewModel extends ViewModel {
                         if (response.body() != null) {
                             return response.body().string();
                         } else {
-                            throw new IllegalStateException("网络请求错误");
+                            throw new IllegalStateException("網路請求錯誤");
                         }
                     }
 
@@ -691,7 +691,7 @@ public class SourceViewModel extends ViewModel {
                         if (response.body() != null) {
                             return response.body().string();
                         } else {
-                            throw new IllegalStateException("网络请求错误");
+                            throw new IllegalStateException("網路請求錯誤");
                         }
                     }
 

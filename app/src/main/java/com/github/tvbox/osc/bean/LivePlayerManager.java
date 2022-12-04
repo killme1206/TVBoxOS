@@ -23,7 +23,7 @@ public class LivePlayerManager {
     public void init(VideoView videoView) {
         try {
             defaultPlayerConfig.put("pl", Hawk.get(HawkConfig.PLAY_TYPE, 0));
-            defaultPlayerConfig.put("ijk", Hawk.get(HawkConfig.IJK_CODEC, "软解码"));
+            defaultPlayerConfig.put("ijk", Hawk.get(HawkConfig.IJK_CODEC, "軟解碼"));
             defaultPlayerConfig.put("pr", Hawk.get(HawkConfig.PLAY_RENDER, 0));
             defaultPlayerConfig.put("sc", Hawk.get(HawkConfig.PLAY_SCALE, 0));
         } catch (JSONException e) {
@@ -76,7 +76,7 @@ public class LivePlayerManager {
                     playerTypeIndex = 0;
                     break;
                 case 1:
-                    if (ijkCodec.equals("硬解码"))
+                    if (ijkCodec.equals("硬解碼"))
                         playerTypeIndex = 1;
                     else
                         playerTypeIndex = 2;
@@ -106,19 +106,19 @@ public class LivePlayerManager {
             switch (playerType) {
                 case 0:
                     playerConfig.put("pl", 0);
-                    playerConfig.put("ijk", "软解码");
+                    playerConfig.put("ijk", "軟解碼");
                     break;
                 case 1:
                     playerConfig.put("pl", 1);
-                    playerConfig.put("ijk", "硬解码");
+                    playerConfig.put("ijk", "硬解碼");
                     break;
                 case 2:
                     playerConfig.put("pl", 1);
-                    playerConfig.put("ijk", "软解码");
+                    playerConfig.put("ijk", "軟解碼");
                     break;
                 case 3:
                     playerConfig.put("pl", 2);
-                    playerConfig.put("ijk", "软解码");
+                    playerConfig.put("ijk", "軟解碼");
                     break;
             }
         } catch (JSONException e) {

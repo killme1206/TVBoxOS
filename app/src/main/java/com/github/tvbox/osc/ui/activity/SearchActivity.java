@@ -217,7 +217,7 @@ public class SearchActivity extends BaseActivity {
                 if (!TextUtils.isEmpty(wd)) {
                     search(wd);
                 } else {
-                    Toast.makeText(mContext, "输入内容不能为空", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mContext, "輸入內容不能為空", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -395,7 +395,7 @@ public class SearchActivity extends BaseActivity {
 
     private void refreshQRCode() {
         String address = ControlManager.get().getAddress(false);
-        tvAddress.setText(String.format("远程搜索使用手机/电脑扫描下面二维码或者直接浏览器访问地址\n%s", address));
+        tvAddress.setText(String.format("遠程搜索使用手機/電腦掃描下面二維碼或者直接瀏覽器訪問地址\n%s", address));
         ivQRCode.setImageBitmap(QRCodeGen.generateBitmap(address + "search.html", 300, 300));
     }
 
@@ -444,7 +444,7 @@ public class SearchActivity extends BaseActivity {
             if (searchExecutorService != null) {
                 searchExecutorService.shutdownNow();
                 searchExecutorService = null;
-                JSEngine.getInstance().stopAll();
+                            JSEngine.getInstance().stopAll();
             }
         } catch (Throwable th) {
             th.printStackTrace();
@@ -471,7 +471,7 @@ public class SearchActivity extends BaseActivity {
             allRunCount.incrementAndGet();
         }
         if (siteKey.size() <= 0) {
-            Toast.makeText(mContext, "没有指定搜索源", Toast.LENGTH_SHORT).show();
+            Toast.makeText(mContext, "沒有指定搜索源", Toast.LENGTH_SHORT).show();
             showEmpty();
             return;
         }
@@ -533,7 +533,7 @@ public class SearchActivity extends BaseActivity {
             if (searchExecutorService != null) {
                 searchExecutorService.shutdownNow();
                 searchExecutorService = null;
-                JSEngine.getInstance().stopAll();
+                            JSEngine.getInstance().stopAll();
             }
         } catch (Throwable th) {
             th.printStackTrace();

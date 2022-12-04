@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:singleLine="true"
             android:maxLines="1"
-            android:text="压缩包"
+            android:text="壓縮包"
             android:textColor="@android:color/white"
             android:textSize="@dimen/ts_22" />
 

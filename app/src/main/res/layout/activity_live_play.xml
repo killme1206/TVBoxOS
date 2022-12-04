@@ -180,7 +180,7 @@
 					android:shadowColor="#CC000000"
 					android:shadowDx="5.0"
 					android:shadowRadius="5.0"
-					android:text="节 目"
+					android:text="節 目"
 					android:textColor="@color/color_FFFFFF"
 					android:textStyle="bold" />
 			</LinearLayout>
@@ -227,7 +227,7 @@
 					android:shadowColor="#CC000000"
 					android:shadowDx="5.0"
 					android:shadowRadius="5.0"
-					android:text="节 目"
+					android:text="節 目"
 					android:textColor="@color/color_FFFFFF"
 					android:textStyle="bold" />
 
@@ -297,7 +297,7 @@
 					android:layout_marginTop="50px"
 					android:gravity="center"
 					android:paddingLeft="5dp"
-					android:text="暂无节目信息…"
+					android:text="暫無節目信息…"
 					android:textColor="@color/color_FF0057"
 					android:visibility="gone" />
 			</LinearLayout>
@@ -525,7 +525,7 @@
 			android:id="@+id/tv_current_program_time"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="暂无信息"
+			android:text="暫無信息"
 			android:singleLine="true"
 			android:layout_toRightOf="@+id/tv_current_program"
 			android:layout_alignTop="@+id/tv_current_program" />
@@ -574,7 +574,7 @@
 			android:id="@+id/tv_next_program_time"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="暂无信息"
+			android:text="暫無信息"
 			android:singleLine="true"
 			android:ellipsize="marquee"
 			android:layout_toRightOf="@+id/tv_next_program"
@@ -678,7 +678,7 @@
 			android:paddingStart="10px"
 			android:paddingTop="15px"
 			android:singleLine="true"
-			android:text="测试频道"
+			android:text="測試頻道"
 			android:textColor="#FFFCFFFF"
 			android:textSize="30px"
 			android:paddingLeft="10px" />
@@ -754,7 +754,7 @@
 			android:gravity="center"
 			android:marqueeRepeatLimit="marquee_forever"
 			android:singleLine="true"
-			android:text="测试频道"
+			android:text="測試頻道"
 			android:textColor="#FFFCFFFF"
 			android:textSize="@dimen/vs_30" />
 

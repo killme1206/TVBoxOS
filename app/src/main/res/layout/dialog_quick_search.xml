@@ -18,7 +18,7 @@
             android:focusable="false"
             android:focusableInTouchMode="false"
             android:gravity="left"
-            android:text="其他数据源中的相关资源, 没有找到可以尝试选词重搜"
+            android:text="其他數據源中的相關資源, 没有找到可以嘗試選詞重搜"
             android:textColor="@color/color_CC000000"
             android:textSize="@dimen/ts_22" />
 

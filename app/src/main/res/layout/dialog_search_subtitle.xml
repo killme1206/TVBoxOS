@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/input_search"
-                android:hint="请输入字幕名称"
+                android:hint="請輸入字幕名稱"
                 android:inputType="text"
                 android:maxLines="1"
                 android:paddingLeft="@dimen/vs_20"

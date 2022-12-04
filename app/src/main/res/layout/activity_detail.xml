@@ -244,7 +244,7 @@
                 android:layout_marginStart="@dimen/vs_10"
                 android:layout_marginLeft="@dimen/vs_10"
                 android:gravity="center"
-                android:text="暂无播放数据"
+                android:text="暫無播放數據"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/ts_24" />
         </LinearLayout>

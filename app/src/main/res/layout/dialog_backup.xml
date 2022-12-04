@@ -19,7 +19,7 @@
             android:lineSpacingMultiplier="0"
             android:padding="@dimen/vs_20"
             android:singleLine="true"
-            android:text="数据备份还原"
+            android:text="數據備份還原"
             android:textColor="@color/color_CC000000"
             android:textSize="@dimen/ts_26"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -48,7 +48,7 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:padding="@dimen/vs_10"
-                android:text="立即备份"
+                android:text="立即備份"
                 android:textColor="@color/color_FFFFFF"
                 android:textSize="@dimen/ts_22" />
 
@@ -64,7 +64,7 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:padding="@dimen/vs_10"
-                android:text="存储权限"
+                android:text="存儲權限"
                 android:textColor="@color/color_FFFFFF"
                 android:textSize="@dimen/ts_22" />
         </LinearLayout>
@@ -77,7 +77,7 @@
             android:lineSpacingMultiplier="0"
             android:padding="@dimen/vs_20"
             android:singleLine="true"
-            android:text="点击下方数据还原"
+            android:text="點擊下方數據還原"
             android:textColor="@color/color_CC000000"
             android:textSize="@dimen/ts_26"
             app:layout_constraintLeft_toLeftOf="parent"

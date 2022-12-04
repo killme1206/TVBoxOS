@@ -190,9 +190,9 @@ public class XWalkUtils {
         Method method = cls.getMethod("extractResource", String.class, String.class);
         boolean obj = (boolean) method.invoke(null, apkPath(context), libExtractPath(context));
         if (obj) {
-            Toast.makeText(context, "解压XWalkView运行组件完成!", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, "解壓XWalkView運行組件完成!", Toast.LENGTH_LONG).show();
         } else {
-            Toast.makeText(context, "解压XWalkView运行组件失败!", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, "解壓XWalkView運行組件失敗!", Toast.LENGTH_LONG).show();
         }
         return obj;
     }

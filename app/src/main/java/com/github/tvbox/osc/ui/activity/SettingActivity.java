@@ -111,7 +111,7 @@ public class SettingActivity extends BaseActivity {
         homeRec = Hawk.get(HawkConfig.HOME_REC, 0);
         dnsOpt = Hawk.get(HawkConfig.DOH_URL, 0);
         List<String> sortList = new ArrayList<>();
-        sortList.add("设置其他");
+        sortList.add("設置其他");
         sortAdapter.setNewData(sortList);
         initViewPager();
     }

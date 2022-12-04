@@ -58,7 +58,7 @@
                     android:focusable="true"
                     android:gravity="center"
                     android:padding="@dimen/vs_10"
-                    android:text="配置历史"
+                    android:text="配置歷史"
                     android:textColor="@color/color_FFFFFF"
                     android:textSize="@dimen/ts_22" />
 
@@ -73,7 +73,7 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:padding="@dimen/vs_10"
-                android:text="存储权限"
+                android:text="存儲權限"
                 android:textColor="@color/color_FFFFFF"
                 android:textSize="@dimen/ts_22" />
             </LinearLayout>
@@ -95,7 +95,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/input_dialog_api_input"
                     android:imeOptions="actionDone"
-                    android:hint="请输入配置地址"
+                    android:hint="請輸入配置地址"
                     android:inputType="text"
                     android:maxLines="1"
                     android:paddingLeft="@dimen/vs_2"
@@ -116,7 +116,7 @@
                     android:focusable="true"
                     android:gravity="center"
                     android:padding="@dimen/vs_10"
-                    android:text="确定"
+                    android:text="確定"
                     android:textColor="@color/color_FFFFFF"
                     android:textSize="@dimen/ts_22" />
             </LinearLayout>

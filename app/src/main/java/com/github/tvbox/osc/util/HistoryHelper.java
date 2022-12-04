@@ -5,7 +5,7 @@ public class HistoryHelper {
 
     public static final String getHistoryNumName(int index){
         Integer value = getHisNum(index);
-        return value + "条";
+        return value + "條";
     }
 
     public static final int getHisNum(int index){
